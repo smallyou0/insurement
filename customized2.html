@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insurement</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body class="bg-white">
+    <header class="header">
+        <div class="align triple">
+            <a href="home.html"><img src="images/logo_ins.svg" alt="로고"></a>
+            <div class="header__alarm">
+                <a class="btn-alarm" href="#none" onclick="alert('준비중입니다')"></a>
+            </div>
+        </div>
+    </header>
+    <main class="main pb150">
+        <section class="content">
+            <ul class="tab-type2 px16 pt12">
+                <li><a class="btn-tab-type2" href="customized1.html">맞춤 상품</a></li>
+                <li><a class="btn-tab-type2 active" href="customized2.html">AI 안심 투자</a></li>
+            </ul>
+            <div class="text-type4 px16 fz18 mt25">AI가 매매 시그널을 알려드려요</div>
+            <div class="text-type4 px16 fw400 fz14 pt12">김인슈님의 매매 신호를 확인해보세요</div>
+            <div class="img-wrap2 px18 mt30">
+                <img src="images/img_aisignal1.svg" alt="" class="img-mb" onclick="alert('준비중입니다')">
+                <img src="images/img_aisignal2.svg" alt="" class="img-mb" onclick="alert('준비중입니다')">
+                <img src="images/img_aisignal3.svg" alt="" class="img-mb" onclick="alert('준비중입니다')">
+                <img src="images/img_aisignal4.svg" alt="" class="img-mb" onclick="alert('준비중입니다')">
+                <img src="images/img_aisignal5.svg" alt="" class="img-mb" onclick="alert('준비중입니다')">
+            </div>
+        </section>
+        <div class="nav-foot">
+            <nav class="nav-foot__cont">
+                <ul>
+                    <li class="ico-nav1"><a href="home.html">홈</a></li>
+                    <li class="ico-nav2 active"><a href="customized1.html">맞춤 상품</a></li>
+                    <li class="ico-nav3"><a href="real-time.html">실시간</a></li>
+                    <li class="ico-nav4"><a href="info.html">투자 정보</a></li>
+                    <li class="ico-nav5"><a href="#none" onclick="alert('준비중입니다')">더보기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+</body>
+<script src="js/button.js"></script>
+<script src="js/navFoot.js"></script>
+
+</html>
