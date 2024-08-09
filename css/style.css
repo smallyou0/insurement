@@ -319,6 +319,7 @@ legend,
   --navy0f: #0F152A;
   --navy06: #06135d;
   --green1c: #1C9B69;
+  --navy12: #122749;
   --navy1d: #1D1848;
   --black22: #222222;
   --navy22: #222B45;
@@ -329,6 +330,7 @@ legend,
   --gray44: #444444;
   --purple6d: #6D29F6;
   --purple8a: #8A57A0;
+  --brownb8: #B89978
   --redf3: #F37072;
   --redf6: #f66747;
   --redff: #FF7A00;
@@ -806,6 +808,9 @@ legend,
 }
 .bg-navy {
   background: var(--navy0f) !important;
+}
+.bg-navy12 {
+  background: var(--navy12) !important;
 }
 .bg_grayf8 { 
   background: var(--grayf8);
@@ -1395,7 +1400,7 @@ button {
   display: block;
   text-align: center;
   padding: 1.4rem 2.0rem;
-  background: #FF7417;
+  background: #122749;
   color: var(--white);
   font-size: 1.6rem;
   font-weight: 700;
@@ -1431,13 +1436,13 @@ button {
   height: 5.6rem;
   padding: 1.4rem 2.0rem;
   background: var(--white);
-  color: #FF7417;
-  border: .1rem solid #FF7417;
+  color: #122749;
+  border: .1rem solid #122749;
   font-size: 1.4rem;
   font-weight: 700;
   border-radius: 1.0rem;
   &.border2 {
-    border: .2rem solid #FF7417;
+    border: .2rem solid #122749;
   }
 }
 .btn-dark {
@@ -1786,28 +1791,28 @@ button {
 }
 .nav-foot__cont ul li.ico-nav1.active a {
   background: url("../images/ico_home_active.svg") no-repeat center 0 / 2.4rem;
-  color: #FF7417;
+  color: #122749;
 }
 .nav-foot__cont ul li.ico-nav2 {
   background: url("../images/ico_customized.svg") no-repeat center 0 / 2.4rem;
 }
 .nav-foot__cont ul li.ico-nav2.active a {
   background: url("../images/ico_customized_active.svg") no-repeat center 0 / 2.4rem;
-  color: #FF7417;
+  color: #122749;
 }
 .nav-foot__cont ul li.ico-nav3 {
   background: url("../images/ico_chart.svg") no-repeat center 0 / 2.4rem;
 }
 .nav-foot__cont ul li.ico-nav3.active a {
   background: url("../images/ico_chart_active.svg") no-repeat center 0 / 2.4rem;
-  color: #FF7417;
+  color: #122749;
 }
 .nav-foot__cont ul li.ico-nav4 {
   background: url("../images/ico_info.svg") no-repeat center 0 / 2.4rem;
 }
 .nav-foot__cont ul li.ico-nav4.active a {
   background: url("../images/ico_info_active.svg") no-repeat center 0 / 2.4rem;
-  color: #FF7417;
+  color: #122749;
 }
 .nav-foot__cont ul li.ico-nav5 {
   background: url("../images/ico_moreview.svg") no-repeat center 0 / 2.4rem;
@@ -2006,6 +2011,9 @@ button {
   }
   &.gray66 {
     color: #666;
+  }
+  &.brownb8 {
+    color: var(--brownb8) ;
   }
   &.center {
     text-align: center;
@@ -3101,7 +3109,7 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .tab-type2 a.active {
-  border-bottom: 4px solid #FF7417;
+  border-bottom: 4px solid #121212;
   color: var(--black);
 }
 .tab-type2 + button {
